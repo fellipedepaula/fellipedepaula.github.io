@@ -1,0 +1,439 @@
+
+
+p, h1, h2, h3, h4, h5, a, button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 100vw;
+  min-height:100%;
+}
+
+.inside {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.extended_bk {
+  position: absolute;
+  float: left;
+  left: 0;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+#wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#nav {
+  float:left;
+
+  position: fixed;
+  left: 0px;
+  top: 0px;
+width: 100vw;
+  height: 70px;
+
+  background-color: white;
+
+
+  z-index: 9999;
+}
+
+#nav_contents {
+  position: relative;
+  margin: 0 auto;
+
+}
+
+#nav button {
+  font-size: 12px;
+}
+
+#logo {
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  top: -22px;
+  left: 30px;
+  color: #555555;
+  cursor: default;
+
+
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#tagline {
+  position: absolute;
+  top: 14px;
+  left: 210px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
+
+
+#menu {
+  position: absolute;
+  top: 21px;
+  right: 20px;
+}
+
+
+#menu a {
+
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+
+
+
+#header {
+  float: left;
+position: absolute;
+left: 0px;
+  height: 550px;
+  width: 100vw;
+  top: 70px;
+margin: 0 auto;
+ background-color: #e4e1da;
+}
+
+#header_content {
+  position: relative;
+  margin: 0 auto;
+
+  top: 20px;
+
+}
+#header img {
+  position: relative;
+  left: 600px;
+  top: -25px;
+z-index: 0;
+
+}
+
+#header h1 {
+  position: absolute;
+  left: 30px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  z-index: 1;
+  color: #333333;
+
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#header h2 {
+  position: absolute;
+  top: 205px;
+  left: 30px;
+
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #333333;
+}
+
+#header button {
+  position: absolute;
+  top: 345px;
+  left: 30px;
+  width: 380px;
+  height: 68px;
+
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#header p {
+  position: absolute;
+  top: 420px;
+  left: 30px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+
+.section_heading {
+  width: 900px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #333333;
+
+  vertical-align: middle;
+  margin:auto;
+  margin-bottom: 40px;
+
+  text-align: center;
+
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+#video {
+  margin-top: 650px;
+  height: 600px;
+}
+
+#explainer {
+  display: block;
+  margin: 0 auto;
+
+}
+
+.row {
+  margin: 0 auto;
+  width: 1160px;
+
+}
+
+.testimonial {
+width: 530px;
+height: 200px;
+margin-bottom: 40px;
+}
+
+.testimonial img {
+  float: left;
+  position: relative;
+  margin-right: 20px;
+  border-radius: 50%;
+border: 10px solid #e4e1da;
+  top: 25px;
+
+}
+
+.testimonial_content {
+  position: relative;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+
+.quotation {
+font-size: 15px;
+font-weight: 600;
+line-height: 24px;
+margin-left: 0px;
+margin-bottom: 20px;
+color: #444444;
+}
+
+.author {
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+display: inline;
+margin-right: 10px;
+}
+
+.website {
+
+display: inline;
+font-size: 12px;
+}
+
+
+.testimonials_left {
+  width: 560px;
+}
+
+.testimonials_right {
+  width: 560px;
+
+
+}
+
+#international_support {
+  background-image: url("../assets/images/international-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center center;
+  height: 300px;
+}
+
+#international_support p {
+  vertical-align: middle;
+  margin:auto;
+  margin-top: -30px;
+  text-align: center;
+  margin-bottom: 40px;
+
+
+}
+
+#international_support ul {
+  width: 600px;
+  margin: auto;
+}
+
+#international_support li {
+  display: inline;
+  margin-left: 20px;
+}
+
+#international_support_content {
+  position: relative;
+  top: 60px;
+}
+
+#pricing {
+  margin-top: 450px;
+  height: 550px;
+}
+
+#pricing_tables {
+  position: relative;
+left: 30px;
+
+}
+
+
+.pricing_table {
+  width: 278px;
+  height: 420px;
+  float: left;
+  margin-right: 1%;
+}
+
+.pricing_header {
+  height: 71px;
+  background-color: #e4e1da;
+  position: relative;
+  top: -16px;
+}
+
+
+.pricing_table h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 71px;
+}
+
+.benefits {
+  height: 200px;
+  position: relative;
+  top:-32px;
+}
+.pricing_table ul {
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+
+}
+.pricing_table li {
+  font-size: 15px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  list-style: none;
+
+}
+
+.checked {
+  list-style-image: url("../assets/images/check.png");
+  margin-left: 10px;
+}
+
+.not_checked {
+  list-style-image: url("../assets/images/no.png");
+  margin-left: 10px;
+}
+
+
+.pricing_footer {
+  height: 160px;
+  position: relative;
+  background-color: #f6f6f6;
+  bottom: 80px;
+}
+
+.pricing_footer .value {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #333333;
+  padding-top: 15px;
+
+}
+
+.pricing_footer .billing_description {
+  position: relative;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.pricing_footer button {
+  width: 278px;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+
+
+
+
+#more_testimonials {
+  height: 250px;
+}
+
+#footer {
+  height: 400px;
+  background-color: #fcfcfc;
+}
+
+#footer_list li {
+  margin-bottom: 30px;
+}
+
+#footer_list i {
+  margin-right: 10px;
+}
+
+.footer_bar {
+  height: 70px;
+  background-color: #e4e1da;
+  bottom: 0px;
+}
+
+#footer_bar_content {
+}
+
+.footer_bar p {
+  display: inline;
+  line-height: 70px;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+#terms {
+  margin-left: 70px;
+}
